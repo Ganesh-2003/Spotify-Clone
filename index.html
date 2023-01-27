@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify APP</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand">
+          <img src="logo.png.png" width="210" alt="Spotify" />
+        </li>
+        <li><a
+          href="https://open.spotify.com/"
+          target="_blank"
+          >Home</a></li>
+        <li>
+          <a
+            href="https://support.spotify.com/us/article/what-is-spotify/"
+            target="_blank"
+            >About App</a
+          >
+        <li><button class="login"><a
+          href="https://accounts.spotify.com/en/login"
+          target="_blank"
+          >LOGIN</a></button></li>
+          <li><button class="signup"><a
+            href="https://www.spotify.com/us/signup"
+            target="_blank"
+            >SIGN UP</a></button></li>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="songList">
+        <h1>Best of Tollywood 2022</h1>
+        <div class="songItemContainer">
+          <div class="songItem">
+            <img alt="1"/>
+            <span class = "songName">Mass Raja</span>
+            <span class="songListPlay"><span class="timeStamp">3:41 <i id="0" class="fas songItemPlay fa-play-circle"></i></span></span>
+          </div>
+          <div class="songItem">
+            <img alt="1"/>
+            <span class = "songName">Mass Raja</span>
+            <span class="songListPlay"><span class="timeStamp">3:06 <i id = "1" class="fas songItemPlay fa-play-circle"></i></span></span>
+          </div>
+          <div class="songItem">
+            <img alt="1"/>
+            <span class = "songName">Mass Raja</span>
+            <span class="songListPlay"><span class="timeStamp">4:02 <i id = "2" class="fas songItemPlay fa-play-circle"></i></span></span>
+          </div>
+          <div class="songItem">
+            <img alt="1"/>
+            <span class = "songName">Mass Raja</span>
+            <span class="songListPlay"><span class="timeStamp">3:28 <i id = "3"  class="fas songItemPlay fa-play-circle"></i></span></span>
+          </div>
+          <div class="songItem">
+            <img alt="1"/>
+            <span class = "songName">Mass Raja</span>
+            <span class="songListPlay"><span class="timeStamp">3:38 <i id = "4" class="fas songItemPlay fa-play-circle"></i></span></span>
+          </div>
+          <div class="songItem">
+            <img alt="1"/>
+            <span class = "songName">Mass Raja</span>
+            <span class="songListPlay"><span class="timeStamp">3:59 <i id = "5" class="fas songItemPlay fa-play-circle"></i></span></span>
+          </div>
+          <div class="songItem">
+            <img alt="1"/>
+            <span class = "songName">Mass Raja</span>
+            <span class="songListPlay"><span class="timeStamp">3:45 <i id = "6" class="fas songItemPlay fa-play-circle"></i></span></span>
+          </div>
+          <div class="songItem">
+            <img alt="1"/>
+            <span class = "songName">Mass Raja</span>
+            <span class="songListPlay"><span class="timeStamp">5:04 <i id = "7" class="fas songItemPlay fa-play-circle"></i></span></span>
+          </div>
+          <div class="songItem">
+            <img alt="1"/>
+            <span class = "songName">Mass Raja</span>
+            <span class="songListPlay"><span class="timeStamp">4:20 <i id = "8" class="fas songItemPlay fa-play-circle"></i></span></span>
+          </div>
+          <div class="songItem">
+            <img alt="1"/>
+            <span class = "songName">Mass Raja</span>
+            <span class="songListPlay"><span class="timeStamp">3:20 <i id = "9" class="fas songItemPlay fa-play-circle"></i></span></span>
+          </div>
+        </div>
+      </div>
+      <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+      <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100" />
+      <div class="icons">
+        <i class="fas fa-3x fa-step-backward" id="previous">&nbsp;</i>
+        <i class="fas fa-3x fa-play-circle" id = "masterPlay">&nbsp;</i>
+        <i class="fas fa-3x fa-step-forward" id = "next">&nbsp;</i>
+      </div>
+      <div class="songInfo">
+        <img src="musicplayer.gif" alt="" id="gif"><span id="masterSongName">Mass Raja – Dhamaka</span>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/a9d7dd6991.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

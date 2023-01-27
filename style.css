@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&family=Montserrat+Subrayada&family=Roboto+Mono&family=Ubuntu&display=swap');
+
+/*
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Montserrat Subrayada', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Ubuntu', sans-serif;*/
+
+body{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );
+    background-image: url("giphy.gif");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a:hover {
+    color: #1ed760;
+  }
+
+nav{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 20px;
+}
+
+nav ul li{
+    padding: 0 12px;
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: #222831;
+    color: white;
+    align-items: center;
+}
+
+a{
+    text-decoration: none; 
+    color: aliceblue;   
+}
+
+.login{
+    background-color: #000000; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    left: 800px;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 34px;
+    font-weight: 900;
+}
+
+.signup{
+    background-color: #000000; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    left: 780px;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 34px;
+    font-weight: 900;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    min-height: 70vh;
+    background-color: #161616;
+    color:aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    padding: 34px;
+    width: 80%;
+    margin: 23px auto;
+    background-image: url("background.jpg");
+    opacity: 0.95;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: #222831;
+    color:aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    flex-direction: column;
+    
+}
+
+.icons{
+    margin-top: 14px;
+}
+
+#myProgressBar{
+    width: 80vw;
+    background-color: white;
+    cursor: pointer;
+    transition: width 5s linear; /* note this line */
+    color: green;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: whitesmoke;
+    width: 60%;
+    color : black;
+    justify-content: space-between;
+    align-items: center;
+    margin: 23px 0;
+    border-radius: 34px;
+}
+
+.songItemContainer{
+    margin-top: 25px;
+}
+
+.songItem img{
+    width: 50px;
+    margin: 0 23px 0;
+    border-radius: 23px;
+}
+
+.timeStamp {
+    margin: 0 23px;
+}
+
+.timeStamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.songInfo img{
+    width:42px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
